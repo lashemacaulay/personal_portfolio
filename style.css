@@ -1,8 +1,9 @@
 body {
-    background-color: darkgreen;
+    background-color: grey;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    margin: 0px;
 }
 
 #navbar {
@@ -12,16 +13,20 @@ body {
     margin: 0px;
 }
 
+#navbar ul {
+    margin: 0px;
+    padding: 0px;
+}
+
 .navit {
     display: inline;
-    margin: 50px 170px;
-    background-color: black;
 }
 
 .navit a {
     color: white;
     text-decoration: none;
-    padding: 0px;
+    margin-left: 170px;
+    margin-right: 170px;
 }
 
 #mainheading {
@@ -30,13 +35,15 @@ body {
 }
 
 img {
-
+    border: 10px solid white;
+    border-radius: 50%;
 }
 
 #intro {
     font-weight: bold;
     font-size: 40px;
 }
+
 h3,
 h2 {
     color: black;
