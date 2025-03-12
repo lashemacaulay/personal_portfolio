@@ -1,0 +1,43 @@
+body {
+    background-color: darkgreen;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#navbar {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+.navit {
+    display: inline;
+    margin: 50px 170px;
+    background-color: black;
+}
+
+.navit a {
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+}
+
+#mainheading {
+   color: black;
+   font-size: 80px;
+}
+
+img {
+
+}
+
+#intro {
+    font-weight: bold;
+    font-size: 40px;
+}
+h3,
+h2 {
+    color: black;
+}
