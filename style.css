@@ -6,6 +6,10 @@ body {
     margin: 0px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 #navbar {
     background-color: black;
     padding-top: 30px;
@@ -47,4 +51,16 @@ img {
 h3,
 h2 {
     color: black;
+}
+
+.section {
+    margin: 0 auto;
+}
+
+#skills h2 {
+    margin-right: 20px;
+}
+
+#skills ul {
+    margin-right: 50px;
 }
