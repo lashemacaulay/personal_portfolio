@@ -1,46 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: grey;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    margin: 0px;
 }
 
 ul {
     list-style-type: none;
 }
 
-#navbar {
+.nav-bar {
     background-color: black;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-#navbar ul {
-    margin: 0px;
-    padding: 0px;
-}
-
-.navit {
-    display: inline;
-}
-
-.navit a {
+.nav-bar li a {
     color: white;
     text-decoration: none;
-    margin-left: 170px;
-    margin-right: 170px;
 }
 
-#mainheading {
+.mainheading {
    color: black;
    font-size: 80px;
+   margin-top: 20px;
+   margin-bottom: 50px;
 }
 
 img {
     border: 10px solid white;
     border-radius: 50%;
+    margin-bottom: 100px;
 }
 
 #intro {
@@ -51,16 +48,26 @@ img {
 h3,
 h2 {
     color: black;
+    margin-bottom: 20px;
 }
 
 .section {
-    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
-#skills h2 {
-    margin-right: 20px;
+.section li {
+    margin-bottom: 10px;
 }
 
-#skills ul {
-    margin-right: 50px;
+
+
+
+@media screen and (max-width: 800px) {
+    .nav-bar {
+        display: none;
+    }
+
+    #contact li {
+        font-size: 30px;
+    }
 }
