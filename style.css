@@ -123,8 +123,7 @@ h2 {
 
 .gallery {
     display: inline-block;
-    text-align: left;
-    margin: 0 50px 50px 0;
+    margin: 0 50px 50px 0px;
 }
 
 .gallery img {
@@ -132,7 +131,12 @@ h2 {
 }
 
 
-
+@media screen and (max-width: 910px) {
+    .gallery {
+        text-align: center;
+        margin-left: 50px;
+    }
+}
 
 @media screen and (max-width: 610px) {
 
@@ -168,6 +172,12 @@ h2 {
 
     #contact li {
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .gallery img {
+        width: 100%;
     }
 }
 
