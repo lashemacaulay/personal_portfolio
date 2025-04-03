@@ -3,4 +3,4 @@ This personal online portfolio is a website created to showcase my coding/progra
 
 I had some help with: 
 The responsive navigation bar from [here](https://www.youtube.com/watch?v=QQlxvj_GKss&t=34s&ab_channel=LamaCode).
-The image gallery from [here] (https://www.youtube.com/watch?v=uu0lOX6Ot3s&ab_channel=BroCode).
+The image gallery from [here](https://www.youtube.com/watch?v=uu0lOX6Ot3s&ab_channel=BroCode).
