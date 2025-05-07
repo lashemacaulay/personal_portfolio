@@ -9,6 +9,9 @@ body {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100vw 200vh;
 }
 
 ul {
@@ -21,12 +24,12 @@ ul {
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding: 12px 20px;
+    padding: 1px 20px;
     align-items: center;
 }
 
 .logo img {
-    width: 40px;
+    width: 60px;
 }
 
 .menu {
@@ -92,19 +95,29 @@ ul {
 .mainheading {
    color: black;
    font-size: 80px;
-   margin-top: 20px;
-   margin-bottom: 50px;
+   padding-top: 100px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    gap: 200px;
 }
 
 main .lashe {
     border: 10px solid white;
     border-radius: 50%;
-    margin-bottom: 100px;
+    margin-left: 100px;
 }
 
 #intro {
     font-weight: bold;
     font-size: 40px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
 }
 
 h3,
