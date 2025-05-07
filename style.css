@@ -192,7 +192,57 @@ h2 {
 }
 
 /* Contact */
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 90px;
+    width: 100%;
+    height: auto;
+}
 
+.contact-box {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-box:hover {
+    border-radius: 20%;
+    background-color: grey;
+    border: 5px dashed aliceblue;
+}
+
+#za-email {
+    font-size: 200px;
+}
+
+#za-phone {
+    font-size: 200px;
+}
+
+#za-house {
+    font-size: 200px;
+}
+
+#cat {
+    gap: 30px;
+}
+
+#cat a {
+    text-decoration: none;
+    color: rgb(1, 1, 12);
+}
+
+#lin {
+    gap: 30px;
+}
+
+#lin a {
+    text-decoration: none;
+    color: blue;
+}
 
 /* Projects */
 .partone {
