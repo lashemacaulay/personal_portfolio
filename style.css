@@ -14,6 +14,7 @@ body {
     background-size: 100vw 200vh;
 }
 
+/* nav bar */
 ul {
     list-style-type: none;
 }
@@ -91,11 +92,24 @@ ul {
     color: white;
     text-decoration: none;
 }
-
+/* main headings */
 .mainheading {
    color: black;
    font-size: 80px;
    padding-top: 100px;
+}
+
+.wite {
+    color: white;
+}
+
+.zahi {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+}
+
+.zahi:hover {
+    color: black;
 }
 
 main {
@@ -108,8 +122,14 @@ main {
 
 main .lashe {
     border: 10px solid white;
-    border-radius: 50%;
+    border-radius: 46% 54% 34% 66% / 54% 61% 39% 46%;
     margin-left: 100px;
+    width: 400px;
+    height: 405px;
+}
+
+main .lashe:hover {
+    border: 10px dotted black;
 }
 
 #intro {
@@ -126,14 +146,55 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* About */
+.thisabout {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 200px;
+    justify-content: center;
+}
+
 .section {
-    margin-bottom: 50px;
+    width: 500px;
+}
+
+#skills:hover {
+    border-radius: 46% 54% 34% 66% / 54% 61% 39% 46%;
+    background-color: grey;
+    padding: 50px;
+    border: 5px double aliceblue;
+}
+
+#qualif:hover {
+    border-radius: 46% 54% 34% 66% / 54% 61% 39% 46%;
+    background-color: grey;
+    padding: 50px;
+    border: 5px ridge aliceblue;
+}
+
+#education:hover {
+    border-radius: 46% 54% 34% 66% / 54% 61% 39% 46%;
+    background-color: grey;
+    padding: 50px 100px;
+    border: 5px dashed aliceblue;
+}
+
+.section:hover {
+    border-radius: 20%;
+    background-color: grey;
+    padding: 50px;
+    border: 5px inset aliceblue;
 }
 
 .section li {
     margin-bottom: 10px;
 }
 
+/* Contact */
+
+
+/* Projects */
 .partone {
     display: flex;
     align-items: center;
@@ -168,7 +229,7 @@ h2 {
     border: 5px solid black;
 }
 
-
+/* Mobile view */
 @media screen and (max-width: 910px) {
     .gallery {
         text-align: center;
