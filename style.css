@@ -106,6 +106,7 @@ ul {
 .zahi {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 100px;
+    transition: color 500ms ease-in 0s;
 }
 
 .zahi:hover {
@@ -126,6 +127,7 @@ main .lashe {
     margin-left: 100px;
     width: 400px;
     height: 405px;
+    transition: border 500ms ease-in-out 0s;
 }
 
 main .lashe:hover {
@@ -160,6 +162,10 @@ h2 {
     width: 500px;
 }
 
+#skills {
+    transition: all 300ms ease-in-out 0s;
+}
+
 #skills:hover {
     border-radius: 46% 54% 34% 66% / 54% 61% 39% 46%;
     background-color: grey;
@@ -168,6 +174,10 @@ h2 {
     flex-direction: column;
     justify-content: center;
     height: 300px;
+}
+
+#qualif {
+    transition: all 300ms ease-in-out 0s;
 }
 
 #qualif:hover {
@@ -181,11 +191,19 @@ h2 {
     height: 400px;
 }
 
+#education {
+    transition: all 300ms ease-in-out 0s;
+}
+
 #education:hover {
     border-radius: 46% 54% 34% 66% / 54% 61% 39% 46%;
     background-color: grey;
     padding: 50px 100px;
     border: 5px dashed aliceblue;
+}
+
+.section {
+    transition: all 300ms ease-in-out 0s;
 }
 
 .section:hover {
@@ -215,6 +233,7 @@ h2 {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    transition: all 300ms ease-in-out 0s;
 }
 
 .contact-box:hover {
@@ -272,6 +291,7 @@ h2 {
     gap: 50px;
     width: 1500px;
     padding: 25px;
+    transition: all 300ms ease-in 0s;
 }
 
 .zatext {
