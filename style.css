@@ -27,6 +27,8 @@ ul {
     position: relative;
     padding: 1px 20px;
     align-items: center;
+    position: fixed;
+    top: 0px
 }
 
 .logo img {
@@ -146,6 +148,41 @@ h3,
 h2 {
     color: black;
     margin-bottom: 20px;
+}
+
+.buttonsec {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    gap: 800px
+}
+
+.cvbut {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 46% 54% 34% 66% / 54% 61% 39% 46%;
+    background-color: grey;
+    border: 5px double aliceblue;
+    padding: 30px;
+    transition: border-radius 300ms ease-in-out;
+}
+
+.cvbut:hover {
+    border-radius: 0%;
+}
+
+.cvgit {
+    border-radius: 46% 54% 34% 66% / 54% 61% 39% 46%;
+    overflow: hidden;
+    background-color: black;
+    transition: all 500ms ease-in;
+    border: 5px rgb(69, 12, 69) solid;
+}
+
+.cvgit:hover {
+    border-radius: 0%;
+    background-color: white;
 }
 
 /* About */
