@@ -459,6 +459,13 @@ a {
 }
 
 /* Mobile view */
+
+@media screen and (max-width: 1690px) {
+    form {
+        margin-top: 200px;
+    }
+}
+
 @media screen and (max-width: 1510px)  {
     .gallery {
         display: flex;
@@ -473,6 +480,12 @@ a {
     }
 }
 
+@media screen and (max-width: 1310px) {
+    .name-n-email {
+        gap: 600px;
+    }
+}
+
 @media screen and (max-width: 1295px) {
     .zaind {
         display: flex;
@@ -484,6 +497,58 @@ a {
 
     main .lashe {
         margin: 0;
+    }
+
+    .buttonsec {
+        gap: 300px;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    form {
+        margin-top: 600px;
+    }
+
+    .name-n-email{
+        gap: 400px;
+    }
+}
+
+@media screen and (max-width: 915px) {
+     .prjbut {
+        gap: 400px;
+     }
+}
+
+@media screen and (max-width: 825px) {
+    .name-n-email {
+        gap: 200px
+    }
+}
+
+@media screen and (max-width: 795px) {
+    .buttonsec {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .zaind {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .prjbut {
+        gap: 200px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .prjbut {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
     }
 }
 
@@ -502,7 +567,7 @@ a {
     }
 
     .section li {
-        font-size: 20px;
+        font-size: 10px;
     }
 }
 
@@ -566,16 +631,44 @@ a {
     #contact li {
         font-size: 30px;
     }
+
+    form {
+        margin-top: 1000px;
+    }
+
+    .name-n-email {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    form {
+        margin-top: 1400px;
+    }
+
+    .name-n-email {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .gallery img {
         width: 100%;
     }
+
+    .abtli {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 450px) {
     #contact li {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #messge {
+        width: 300px;
     }
 }
