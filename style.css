@@ -166,6 +166,7 @@ h2 {
     border: 5px double aliceblue;
     padding: 30px;
     transition: border-radius 300ms ease-in-out;
+    cursor: pointer;
 }
 
 .cvbut:hover {
@@ -345,6 +346,7 @@ form {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .cntc-snd:hover {
@@ -411,6 +413,7 @@ a {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .gitrep:hover {
@@ -425,6 +428,7 @@ a {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .liveview:hover {
