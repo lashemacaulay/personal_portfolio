@@ -379,8 +379,9 @@ label {
 
 .name-n-email {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 900px;
+    gap: 100px;
 }
 
 /* Projects */
@@ -486,7 +487,7 @@ a {
 
 @media screen and (max-width: 1310px) {
     .name-n-email {
-        gap: 600px;
+        gap: 100px;
     }
 }
 
@@ -508,14 +509,11 @@ a {
     }
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 985px) {
     form {
-        margin-top: 600px;
+        margin-top: 550px;
     }
 
-    .name-n-email{
-        gap: 400px;
-    }
 }
 
 @media screen and (max-width: 915px) {
@@ -524,11 +522,7 @@ a {
      }
 }
 
-@media screen and (max-width: 825px) {
-    .name-n-email {
-        gap: 200px
-    }
-}
+
 
 @media screen and (max-width: 795px) {
     .buttonsec {
