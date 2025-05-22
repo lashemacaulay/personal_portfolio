@@ -195,6 +195,10 @@ h2 {
     color: black;
 }
 
+.makeblack {
+    color: black;
+}
+
 /* About */
 .thisabout {
     display: flex;
