@@ -674,3 +674,9 @@ a {
         width: 300px;
     }
 }
+
+@media screen and (max-height: 1155px) {
+    body {
+        background-size: 100vw 1000vh;
+    }
+}
